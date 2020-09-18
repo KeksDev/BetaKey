@@ -96,7 +96,7 @@ class main extends PluginBase implements Listener {
 
 			
 
-			if($args[0] === 0) {
+			if($args[0] == 0) {
 
 				$sender->sendMessage("§cPlease provide a number over 0");
 
@@ -123,7 +123,7 @@ class main extends PluginBase implements Listener {
 			return true;
 
 		}
-
+            return true;
 	}
 
 	 
