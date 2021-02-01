@@ -8,7 +8,7 @@
  * \____/  \___| \__| \__,_|\_| \_/ \___| \__, |   \_/  \_____/
  *                                        __/ |               
  *                                       |___/                
- * This BetaKey Plugin is made by KeksDev#9513 and LordArrow9#0717. 
+ * This BetaKey Plugin is made by KeksDev#9513 and LordArrow9#1234. 
  * Don't copy the Code or steal it. Copyright by KeksDevelopment.
  * Plugin created in 2021.
  * Our Discord: https://discord.gg/b4NMAJmPgn
