@@ -1,0 +1,43 @@
+#Prefix is changeable in main.php
+
+#Welcome Back Message
+back-message: "§2Welcome back!"
+#Message when you get kicked because of you dont entered a key
+kick-message: "§cPlease enter a valid Beta-Key to play on the Beta of the Server."
+#used Beta-Key successfully Message
+used-key: "§aYou've successfully used your Beta-Key."
+#no-permission Message
+no-permission: "§cYou don't have the Permission to use this Option!"
+#you can only use this in-game Message:
+only-ingame: "§cYou can only use this Option In-Game!"
+
+#Redeem UI:
+redeem-title: "§6§lBeta-Key §r| §b§lEnter Beta-Key"
+redeem-label: "§bPlease enter a valid Beta-Key"
+redeem-input: "§2Enter your Key here"
+
+#Manage UI:
+manage-title: "§6§lBeta-Key §r| §b§lManage Beta-Keys"
+manage-content: "§bPlease choose an option"
+manage-button-create: "§aCreate §rBeta-Keys"
+manage-button-delete: "§cDelete §rBeta-Keys"
+manage-button-list: "§eList §rBeta-Keys"
+
+#Create Keys UI
+min-input: "§cThe Key has to have atleast 6 characters!"
+max-input: "§cThe Key has to have less than 15 characters!"
+input-empty: "§cYou have to enter how much Beta-Keys you wanna create!"
+input-0: "§cYou have to create atleast 1 Beta-Key!"
+input-number: "§cYou have to enter a valid number!"
+create-title: "§6§lBeta-Key §r| §b§lCreate Beta-Keys"
+create-input1: "§bEnter how much Beta-Keys you wanna create"
+create-input2: "§bEnter the lenght of the Beta-Keys you wanna create(normal=9) (optional)"
+
+#Delete Keys UI
+key-dont-exists: "§cThis Key don't exists or was already used!"
+key-deleted: "§aYou successfully deleted the Key!"
+delete-title: "§6§lBeta-Key §r| §b§lDelete Beta-Keys"
+delete-input: "§bEnter a valid Beta-Key you want to delete"
+
+#List Keys UI
+list-title: "§6§lBeta-Key §r| §b§lList Beta-Keys"
