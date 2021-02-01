@@ -1,25 +1,19 @@
----
-
 name: BetaKey
-
-api:
-
- - 3.0.0
-
- - 4.0.0
-
-version: 1.0.1
-
-main: BetaKey\main
-
-author: KeksDev9513
-
+author: KeksDevelopment
+version: 2.0.1
+api: [3.0.0, 4.0.0]
+main: KeksDevelopment\BetaKey\main
 commands:
-
- genkey:
-
-  description: Generate a Beta Key
-
-  permission: betakey.generate
-
-...
+ betakeys:
+  description: Manage the Beta-Keys on your Server!
+  permission: "betakeys.ui"
+ 
+permissions:
+ betakeys.ui:
+  default: op
+ createkeys.ui:
+  default: op
+ deletekeys.ui:
+  default: op
+ listkeys.ui:
+  default: op
