@@ -250,15 +250,16 @@ class main extends PluginBase implements Listener{
     
     case "betakeys":
       if(!$sender instanceof Player){
-        $sender->sendMessage(main::PREFIX. $this->settings->get("only-ingame"));
-        return true;
+          $sender->sendMessage(main::PREFIX. $this->settings->get("only-ingame"));
+          return true;
+       }
+       if(!$sender->hasPermission("betakeys.ui")){
+         $sender->sendMessage(main::PREFIX. $this->settings->get("no-permission"));
+         return true;
+       }
+       $this->manageKeysUI($sender);
+       return true;
     }
-    if(!$sender->hasPermission("betakeys.ui")){
-      $sender->sendMessage(main::PREFIX. $this->settings->get("no-permission"));
-      return true;
-    }
-    $this->manageKeysUI($sender);
     return true;
-    }
   }
 }
