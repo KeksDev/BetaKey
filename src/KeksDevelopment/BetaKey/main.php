@@ -82,12 +82,12 @@ class main extends PluginBase implements Listener{
         $this->RedeemUI($player);
         return true;
       }
-      if($this->keys->exists($data[0]) && $this->keys->get($data[0]) === true){
+      if($this->keys->exists($data[1]) && $this->keys->get($data[1]) === true){
         
       $this->user->set($player->getName(), true);
       $this->user->save();
       $this->user->reload();
-      $this->keys->set($data[0], false);
+      $this->keys->set($data[1], false);
       $this->keys->save();
       $this->keys->reload();
       $player->sendMessage(main::PREFIX. $this->settings->get("used-key"));
